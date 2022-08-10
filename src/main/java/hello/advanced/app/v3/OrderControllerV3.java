@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import hello.advanced.trace.TraceStatus;
-import hello.advanced.trace.hellotrace.logtrace.LogTrace;
+import hello.advanced.trace.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 
 @RestController
