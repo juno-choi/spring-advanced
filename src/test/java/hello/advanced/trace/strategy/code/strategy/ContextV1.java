@@ -13,6 +13,9 @@ public class ContextV1 {
         this.strategy = strategy;
     }
 
+    public ContextV1(Object strategy2) {
+    }
+
     public void execute() {
         long startTime = System.currentTimeMillis();
 
